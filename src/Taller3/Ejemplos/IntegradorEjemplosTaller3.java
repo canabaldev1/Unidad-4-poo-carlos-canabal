@@ -12,6 +12,10 @@ public class IntegradorEjemplosTaller3 {
         Contador c3 = new Contador();
 // Se accede al método estático usando el nombre de la clase
         Contador.mostrarContador(); // Muestra: Contador global: 3
-
+        
+        int resultado = Calculadora.sumar(5, 7);
+        System.out.println("Resultado: "+resultado);
+        
+        
     }
 }
