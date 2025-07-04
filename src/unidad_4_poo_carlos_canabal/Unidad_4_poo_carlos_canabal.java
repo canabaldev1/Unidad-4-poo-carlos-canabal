@@ -18,7 +18,7 @@ public class Unidad_4_poo_carlos_canabal {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Integrador.main();
+        //Integrador.main();
     }
     
 }
