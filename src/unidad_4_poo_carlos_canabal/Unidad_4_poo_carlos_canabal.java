@@ -4,7 +4,8 @@
  */
 package unidad_4_poo_carlos_canabal;
 
-import Taller1.Ejercicios.Integrador;
+import Taller1.Ejercicios.IntegradorTaller1;
+import Taller2.Ejercicios.IntegradorTaller2;
 
 /**
  *
@@ -18,7 +19,8 @@ public class Unidad_4_poo_carlos_canabal {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        //Integrador.main();
+        //IntegradorTaller1.main();
+        IntegradorTaller2.main();
     }
     
 }

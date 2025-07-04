@@ -17,6 +17,14 @@ public class Estudiante {
     public Estudiante() {
         this("nombre no definido", 0);
     }
+    
+    public static void MetodoConError () {
+        System.out.println(this.nombre);
+    }
+    
+    public void MetodoConErrorCorregido () {
+        System.out.println(this.nombre);
+    }
 
     @Override
     public String toString() {

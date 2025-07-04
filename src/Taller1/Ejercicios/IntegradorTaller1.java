@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  * @author lm-carlos
  */
-public class Integrador {
+public class IntegradorTaller1 {
 
     public static void main() {
 

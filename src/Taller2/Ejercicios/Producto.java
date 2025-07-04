@@ -23,7 +23,7 @@ public class Producto {
     @Override
     public String toString() {
         return ("Producto\n" + "--------------------------\n"
-                + "nombre:      " + nombre + "\n"
+                + "nombre:        " + nombre + "\n"
                 + "precio:        " + precio + "\n");
     }
 
