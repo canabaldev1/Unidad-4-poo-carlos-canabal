@@ -4,7 +4,7 @@ package Taller1.Ejemplos;
  *
  * @author lm-carlos
  */
-public class Coche {
+public class Coche extends Vehiculo{
 
     String marca;
     String modelo;
@@ -15,13 +15,14 @@ public class Coche {
     }
 
     // Contructor con parámetros
-    public Coche(String marca) {
+    public Coche(String tipo, String marca) {
+        super(tipo);
         this.marca = marca;
     }
 
     // Constructor sobrecargado
-    public Coche(String marca, String modelo) {
-        this(marca);
+    public Coche(String tipo, String marca, String modelo) {
+        this(tipo, marca);
         this.modelo = modelo;
     }
 
