@@ -41,5 +41,27 @@ public class IntegradorTaller4 {
 
         System.out.println("Velocidad máxima: " + carro1.getVelocidadMaxima());
 
+        // EJERCICIO 3
+        Estudiante estudiante2 = new Estudiante();
+
+        estudiante2.setNombre("Carlos");
+        estudiante2.setEdad(30);
+        estudiante2.setNotaPromedio(5);
+
+        try {
+            estudiante2.nombre = "Carlos";
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("No se puede cambiar directamente porque no se puede acceder al atributo.");
+        }
+
+        try {
+            estudiante2.apellido = "Canabal";
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("No se puede cambiar directamente porque no se puede acceder al atributo.");
+            System.out.println("El atributo apellido es inutil ya que no se puede establecer en el constructor,\nno se puede cambiar con algun setter, y no se puede leer con un getter.");
+        }
+
     }
 }

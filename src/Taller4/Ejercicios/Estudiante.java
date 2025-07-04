@@ -9,6 +9,10 @@ public class Estudiante {
     private String nombre;
     private int edad;
     private double notaPromedio;
+    private String apellido;
+
+    public Estudiante() {
+    }
 
     // Getters
     public String getNombre() {
