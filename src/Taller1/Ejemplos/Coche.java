@@ -21,7 +21,7 @@ public class Coche {
 
     // Constructor sobrecargado
     public Coche(String marca, String modelo) {
-        this.marca = marca;
+        this(marca);
         this.modelo = modelo;
     }
 
