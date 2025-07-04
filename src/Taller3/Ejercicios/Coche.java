@@ -22,4 +22,14 @@ public class Coche {
     public static void mostrarCantidadDeCoches() {
         System.out.println("Cantidad de coches creados: " + contadorCoches);
     }
+    
+    public static void metodoEstaticoConError() {
+        System.out.println("mostrar marca: "+marca);
+        System.out.println("mostrar modelo: "+modelo);
+    }
+
+    public void metodoEstaticoCorregido() {
+        System.out.println("mostrar marca: "+marca);
+        System.out.println("mostrar modelo: "+modelo);
+    }
 }
