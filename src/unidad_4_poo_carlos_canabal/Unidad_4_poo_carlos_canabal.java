@@ -9,6 +9,7 @@ import Taller2.Ejercicios.IntegradorTaller2;
 import Taller3.Ejemplos.IntegradorEjemplosTaller3;
 import Taller3.Ejercicios.IntegradorTaller3;
 import Taller4.Ejemplos.IntegradorEjemplosTaller4;
+import Taller4.Ejercicios.IntegradorTaller4;
 
 /**
  *
@@ -26,7 +27,8 @@ public class Unidad_4_poo_carlos_canabal {
         //IntegradorTaller2.main();
         //IntegradorEjemplosTaller3.main();
         //IntegradorTaller3.main();
-        IntegradorEjemplosTaller4.main();
+        //IntegradorEjemplosTaller4.main();
+        IntegradorTaller4.main();
     }
     
 }
