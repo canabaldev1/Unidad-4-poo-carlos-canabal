@@ -7,6 +7,7 @@ package unidad_4_poo_carlos_canabal;
 import Taller1.Ejercicios.IntegradorTaller1;
 import Taller2.Ejercicios.IntegradorTaller2;
 import Taller3.Ejemplos.IntegradorEjemplosTaller3;
+import Taller3.Ejercicios.IntegradorTaller3;
 
 /**
  *
@@ -22,7 +23,8 @@ public class Unidad_4_poo_carlos_canabal {
         
         //IntegradorTaller1.main();
         //IntegradorTaller2.main();
-        IntegradorEjemplosTaller3.main();
+        //IntegradorEjemplosTaller3.main();
+        IntegradorTaller3.main();
     }
     
 }
