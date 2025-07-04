@@ -18,9 +18,9 @@ public class Estudiante {
         this("nombre no definido", 0);
     }
     
-    public static void MetodoConError () {
+    /*public static void MetodoConError () {
         System.out.println(this.nombre);
-    }
+    }*/
     
     public void MetodoConErrorCorregido () {
         System.out.println(this.nombre);
