@@ -37,7 +37,7 @@ public class IntegradorTaller2 {
         System.out.println(estudiante1);
         
         try {
-            //Estudiante.MetodoConError();
+            Estudiante.MetodoConError();
         } catch (Exception e) {
             System.out.println("Error del método");
         }

@@ -16,6 +16,10 @@ public class IntegradorEjemplosTaller3 {
         int resultado = Calculadora.sumar(5, 7);
         System.out.println("Resultado: "+resultado);
         
-        
+        try {
+            Persona.mostrarNombre();
+        } catch (Exception e) {
+            System.out.println("Error al mostrar nombre");
+        }
     }
 }
