@@ -28,7 +28,7 @@ public class Estudiante {
 
     @Override
     public String toString() {
-        return ("Cuenta Bancaria\n" + "--------------------------\n"
+        return ("Estudiante\n" + "--------------------------\n"
                 + "nombre:          " + nombre + "\n"
                 + "edad:            " + edad + "\n"
                 + "curso:           " + curso + "\n");

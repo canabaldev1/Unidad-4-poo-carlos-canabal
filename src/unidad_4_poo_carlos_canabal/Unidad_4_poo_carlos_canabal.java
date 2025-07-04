@@ -4,6 +4,8 @@
  */
 package unidad_4_poo_carlos_canabal;
 
+import Taller1.Ejercicios.Integrador;
+
 /**
  *
  * @author lm-carlos
@@ -15,6 +17,8 @@ public class Unidad_4_poo_carlos_canabal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Integrador.main();
     }
     
 }
