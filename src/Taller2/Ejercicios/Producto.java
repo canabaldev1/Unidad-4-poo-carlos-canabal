@@ -19,4 +19,12 @@ public class Producto {
         System.out.println("Nombre del producto: " + nombre);
         System.out.println("Precio: $" + precio);
     }
+
+    @Override
+    public String toString() {
+        return ("Producto\n" + "--------------------------\n"
+                + "nombre:      " + nombre + "\n"
+                + "precio:        " + precio + "\n");
+    }
+
 }
