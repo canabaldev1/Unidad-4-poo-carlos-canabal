@@ -12,5 +12,10 @@ public class Coche {
     public Coche() {
         marca = "Desconocida";
     }
+    
+    // Contructor con parámetros
+    public Coche(String marca) {
+        this.marca = marca;
+    }
 
 }
