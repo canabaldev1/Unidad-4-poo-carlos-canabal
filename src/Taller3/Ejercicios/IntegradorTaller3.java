@@ -6,7 +6,7 @@ package Taller3.Ejercicios;
  */
 public class IntegradorTaller3 {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         Coche c1 = new Coche("Toyota", "Corolla");
         Coche c2 = new Coche("Honda", "Civic");

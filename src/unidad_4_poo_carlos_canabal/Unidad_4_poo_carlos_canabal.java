@@ -4,13 +4,6 @@
  */
 package unidad_4_poo_carlos_canabal;
 
-import Taller1.Ejercicios.IntegradorTaller1;
-import Taller2.Ejercicios.IntegradorTaller2;
-import Taller3.Ejemplos.IntegradorEjemplosTaller3;
-import Taller3.Ejercicios.IntegradorTaller3;
-import Taller4.Ejemplos.IntegradorEjemplosTaller4;
-import Taller4.Ejercicios.IntegradorTaller4;
-import Taller5.Ejemplos.PaqueteB.Main;
 
 /**
  *
@@ -23,14 +16,7 @@ public class Unidad_4_poo_carlos_canabal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        //IntegradorTaller1.main();
-        //IntegradorTaller2.main();
-        //IntegradorEjemplosTaller3.main();
-        //IntegradorTaller3.main();
-        //IntegradorEjemplosTaller4.main();
-        //IntegradorTaller4.main();
-        Main.main();
+
     }
     
 }

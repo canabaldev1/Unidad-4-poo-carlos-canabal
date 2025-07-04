@@ -8,7 +8,7 @@ import Taller5.Ejemplos.PaqueteA.Vehiculo;
  */
 public class Main {
 
-    public static void main() {
+    public static void main(String[] args) {
         Vehiculo v1 = new Vehiculo("Toyota");
 
     }

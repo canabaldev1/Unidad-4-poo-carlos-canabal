@@ -6,7 +6,7 @@ package Taller4.Ejercicios;
  */
 public class IntegradorTaller4 {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         //ESTUDIANTE
         Estudiante est = new Estudiante();

@@ -6,7 +6,7 @@ package Taller4.Ejemplos;
  */
 public class IntegradorEjemplosTaller4 {
 
-    public static void main() {
+    public static void main(String[] args) {
         Persona p = new Persona("Juan", 20);
         try {
             System.out.println(p.nombre);

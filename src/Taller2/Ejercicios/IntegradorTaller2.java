@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class IntegradorTaller2 {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
         
