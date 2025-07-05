@@ -9,5 +9,10 @@ package Taller12.Ejemplos;
  * @author lm-carlos
  */
 public interface Volador {
+
     void volar();
+
+    default void despegar() {
+        System.out.println("Volador despega");
+    }
 }

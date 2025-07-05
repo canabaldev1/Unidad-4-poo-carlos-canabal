@@ -9,5 +9,10 @@ package Taller12.Ejemplos;
  * @author lm-carlos
  */
 public interface Nadador {
+
     void nadar();
+
+    default void despegar() {
+        System.out.println("nadador despega");
+    }
 }
