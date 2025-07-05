@@ -14,5 +14,9 @@ public class PruebaTaller8 {
 
         estudiante.mostrarInformacion();
 
+        Gerente gerente = new Gerente("Matias", 9, "administrativo");
+
+        gerente.mostrarDetalles();
+
     }
 }
