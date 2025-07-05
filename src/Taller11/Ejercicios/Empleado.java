@@ -14,6 +14,10 @@ public abstract class Empleado {
 
     public abstract double calcularSalario(int dias);
 
+    public int mostrarDias() {
+        return dias;
+    }
+
     public void mostrarDetalles() {
         System.out.println("Salario: $" + calcularSalario(dias));
     }
