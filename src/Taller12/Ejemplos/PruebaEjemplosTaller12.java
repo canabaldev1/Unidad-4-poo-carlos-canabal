@@ -10,10 +10,13 @@ public class PruebaEjemplosTaller12 {
         Pato pato = new Pato();
         pato.nadar();
         pato.volar();
-        
-        
+
         Robot robot = new Robot();
         robot.caminar();
         robot.hablar();
+
+        Coche coche = new Coche();
+        coche.encender();
+        coche.acelerar();
     }
 }
