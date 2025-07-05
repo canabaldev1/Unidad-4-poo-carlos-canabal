@@ -13,6 +13,10 @@ public class PruebaTaller11 {
         f1.mostrarArea();
         f2.mostrarArea();
         
+        Gerente g1 = new Gerente(10);
+        Vendedor v1 = new Vendedor(10);
         
+        g1.mostrarDetalles();
+        v1.mostrarDetalles();
     }
 }
