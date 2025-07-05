@@ -12,5 +12,11 @@ public class PruebaTaller13 {
 
         System.out.println("Area del rectangulo: " + r1.calcularArea());
         System.out.println("Area del triangulo: " + t1.calcularArea());
+
+        Pato p1 = new Pato();
+
+        p1.nadar();
+        p1.volar();
+
     }
 }
