@@ -18,5 +18,9 @@ public class PruebaTaller13 {
         p1.nadar();
         p1.volar();
 
+        Ganso g1 = new Ganso();
+
+        g1.nadar();
+
     }
 }
