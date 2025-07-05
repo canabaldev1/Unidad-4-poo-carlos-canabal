@@ -11,10 +11,16 @@ public class PruebaTaller10 {
         Persona persona = new Persona();
         Estudiante estudiante = new Estudiante();
         Profesor profesor = new Profesor();
-        
+
         persona.presentarse();
         estudiante.presentarse();
         profesor.presentarse();
+
+        Vehiculo vehiculo = new Vehiculo();
+        Bicicleta bici = new Bicicleta();
+
+        vehiculo.moverse();
+        bici.moverse();
 
     }
 }
