@@ -12,5 +12,12 @@ public class PruebaTaller9 {
 
         Pez pez = new Pez("Bocachico", "Agua dulce");
         pez.mostrarDetalles();
+
+        try {
+            super.mostrarDetalles();
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
