@@ -7,7 +7,7 @@ package Taller10.Ejercicios;
 public class Bicicleta extends Vehiculo {
 
     @Override
-    public void moverse() {
-        System.out.println("Me muevo en dos llantas");
+    public void moverse(String velocidad) {
+        System.out.println("Me muevo en dos llantas a " + velocidad + " km/h");
     }
 }
