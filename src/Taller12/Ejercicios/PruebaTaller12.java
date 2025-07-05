@@ -16,5 +16,9 @@ public class PruebaTaller12 {
 
         p1.nadar();
         p1.respirar();
+
+        Persona per1 = new Persona();
+        per1.hablar();
+        per1.trabajar();
     }
 }
