@@ -11,5 +11,10 @@ public class PruebaTaller12 {
 
         a1.cantar();
         a1.volar();
+
+        Pez p1 = new Pez();
+
+        p1.nadar();
+        p1.respirar();
     }
 }
