@@ -11,6 +11,9 @@ public class PruebaEjemplosTaller14 {
         Empleado empleado2 = new Ingeniero();
         empleado1.trabajar();
         empleado2.trabajar();
+        
+        Animal miAnimal = new Perro();
+        miAnimal.correr();
     }
 
 }
