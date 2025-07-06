@@ -13,5 +13,7 @@ public class PruebaTaller17 {
         System.out.println(f1.calcularArea());
         System.out.println(f2.calcularArea());
 
+        CuentaBancaria ca1 = new CuentaAhorros("123456", 50000);
+        ca1.tipoDeCuenta();
     }
 }
