@@ -15,5 +15,12 @@ public class PruebaTaller17 {
 
         CuentaBancaria ca1 = new CuentaAhorros("123456", 50000);
         ca1.tipoDeCuenta();
+
+        Transporte t1 = new Bici();
+        Transporte t2 = new Coche();
+
+        t1.movimiento();
+        t2.movimiento();
+
     }
 }
