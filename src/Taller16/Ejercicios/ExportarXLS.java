@@ -4,7 +4,7 @@ package Taller16.Ejercicios;
  *
  * @author lm-carlos
  */
-public class ExportXls extends Exportar {
+public class ExportarXLS extends Exportar {
 
     @Override
     public void exportarDocumento() {
